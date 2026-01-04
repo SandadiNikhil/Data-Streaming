@@ -1,5 +1,5 @@
-CREATE TABLE weather_data (
+CREATE TABLE weather (
     id SERIAL PRIMARY KEY,
     city VARCHAR(255) NOT NULL,
-    avg_temp DOUBLE PRECISION,
+    average_temperature DOUBLE PRECISION
 );
